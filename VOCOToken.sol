@@ -214,7 +214,7 @@ contract StandardToken is ERC20, BasicToken {
 contract VOCOToken is StandardToken {
 
   string public constant name = "VOCO Token"; 
-  string public constant symbol = "VCT"; 
+  string public constant symbol = "VOCT"; 
   uint8 public constant decimals = 18;
 
   uint256 public constant INITIAL_SUPPLY = 1000000000 * (10 ** uint256(decimals));
